@@ -1,0 +1,51 @@
+.d-text-principal{
+  color: $color-primary;
+  font-size: 20px;
+  font-family: $font_text_bold;
+  @include mediaQ(769px){
+    // display: block;
+    // text-align: left;
+  }
+  
+}
+.title-principal{
+  color: $color-light-text;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  @include mediaQ(769px){
+    text-align: left;
+    font-size: 38px;
+  }
+  @include mediaQ(992px){
+    font-size: 36px;
+    margin-bottom: .5em;
+  }
+  @include mediaQ(1400px){
+    font-size: 45px;
+    margin-bottom: .5em;
+  }
+}
+
+.title-error-principal{
+  color: $color-light-text;
+  font-size: 64px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.sub-title-error-principal{
+  color: $color-light-text;
+  font-size: 32px;
+  padding-top: 0;
+  text-align: center;
+}
+.sub-p-error-principal{
+  color: $color-light-text;
+  font-size: 16px;
+  padding-top: 0;
+  text-align: center;
+}
+
+//font
